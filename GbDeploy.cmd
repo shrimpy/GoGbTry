@@ -38,7 +38,7 @@ IF EXIST "%WEBROOT_PATH%\azureapp" (
 )
 
 %GOEXE% get github.com/constabulary/gb/...
-SET GBEXE="%GOROOT%\bin\go.exe"
+SET GBEXE="%GOROOT%\bin\gb.exe"
 
 ECHO creating %GOAZUREAPP%
 MKDIR %GOAZUREAPP%
